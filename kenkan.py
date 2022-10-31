@@ -90,7 +90,7 @@ DRINKS = [
 
 
            
-@bot.on_message(filters.command("start"))
+@bot.on_message(filters.command("xstart"))
 async def start_message(client: Client, message: Message):
     await message.reply(f"Selamat bermain dan selamat ter spill!\n\nJangan lupa subs @{CHANNEL} dan contact @{OWNER} untuk info lainnya.\n\nNote : khusus RL bukan RP")
     
